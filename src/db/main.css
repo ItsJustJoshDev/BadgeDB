@@ -1,167 +1,37 @@
-#app-mount [class*="avatar-"] + * {
-	overflow: visible !important;
+#app-mount .avatar-2e8lTP[src*='938557606820204625'] + h2::after,
+*[aria-label^="ItsJustJoshDev"],
+*[src*='938557606820204625'] {
+
+	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png"); /* Supports SVGs */
+	--badge-border: 3px solid var(--background-floating);
+	--badge-accent: none; /* Badge Color For SVGs */
+	--badge-background: var(--background-floating);
+	--badge-radius: 6px;
+
+	--tooltip-background: var(--user-accent);
+	--tooltip-color: var(--header-primary);
+	--tooltip-radius: 6px;
+	--tooltip: "Banned Again Lamo";
+
+	--user-accent: rgb(201, 174, 98);
+
 }
 
-/* usrpopout */
-.avatar-2Vndt_.wrapper-1VLyxH::after {
-	pointer-events: none; transition: all 0.1s ease-in-out;
-	background: var(--user-badge) center/cover no-repeat;
-	background-color: var(--badge-background);
-	border-radius: var(--badge-radius);
-	content: ""; position: absolute;
-	border: var(--badge-border);
-	color: var(--badge-accent);
-	width: 28px; height: 28px;
-	bottom: 0; left: 0;
-	z-index: 1;
-}
+#app-mount .avatar-2e8lTP[src*=''] + h2::after,
+*[aria-label^="Joshua Malava"],
+*[src*=''] {
 
-.avatar-2Vndt_.wrapper-1VLyxH:hover::after {
-	width: 40px; height: 40px;
-}
+	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png"); /* Supports SVGs */
+	--badge-border: 3px solid var(--background-floating);
+	--badge-accent: none; /* Badge Color For SVGs */
+	--badge-background: var(--background-floating);
+	--badge-radius: 6px;
 
-/* usrmodal */
-.avatar-3QF_VA.wrapper-1VLyxH::after {
-	pointer-events: none; transition: all 0.1s ease-in-out;
-	background: var(--user-badge) center/cover no-repeat;
-	background-color: var(--badge-background);
-	border-radius: var(--badge-radius);
-	content: ""; position: absolute;
-	border: var(--badge-border);
-	color: var(--badge-accent);
-	width: 28px; height: 28px;
-	bottom: 0; left: 0;
-	z-index: 1;
-}
+	--tooltip-background: var(--user-accent);
+	--tooltip-color: var(--header-primary);
+	--tooltip-radius: 6px;
+	--tooltip: "a Very Horny Person";
 
-.avatar-3QF_VA.wrapper-1VLyxH:hover::after {
-	width: 40px; height: 40px;
-}
+	--user-accent: ;
 
-/* Settings */
-.avatar-3mTjvZ.wrapper-1VLyxH::after {
-	pointer-events: none; transition: all 0.1s ease-in-out;
-	background: var(--user-badge) center/cover no-repeat;
-	background-color: var(--badge-background);
-	border-radius: var(--badge-radius);
-	content: ""; position: absolute;
-	border: var(--badge-border);
-	color: var(--badge-accent);
-	width: 28px; height: 28px;
-	bottom: 0; left: 0;
-	z-index: 1;
-}
-
-.avatar-3mTjvZ.wrapper-1VLyxH:hover::after {
-	width: 40px; height: 40px;
-}
-
-/* Chat Area */
-#app-mount .avatar-2e8lTP + h2::after {
-	pointer-events: none; transition: all 0.1s ease-in-out;
-	background: var(--user-badge) center/cover no-repeat;
-	background-color: var(--badge-background);
-	border-radius: var(--badge-radius);
-	content: ""; position: absolute;
-	border: var(--badge-border);
-	color: var(--badge-accent);
-	height: 15px; width: 15px;
-	bottom: -29px; left: -59px;
-	z-index: 1;
-}
-
-/* Active Now */
-.headerAvatar-GgCKcl::after {
-	pointer-events: none; transition: all 0.1s ease-in-out;
-	background: var(--user-badge) center/cover no-repeat;
-	border-radius: var(--badge-radius);
-	content: ""; position: absolute;
-	color: var(--badge-accent);
-	width: 18px; height: 18px;
-	bottom: -3px; left: -5px;
-	z-index: 1;
-}
-
-.headerAvatar-GgCKcl:hover::after {
-	width: 40px; height: 40px;
-}
-
-/* Freinds List */
-.avatar-2MSPKk::after {
-	pointer-events: none; transition: all 0.1s ease-in-out;
-	background: var(--user-badge) center/cover no-repeat;
-	border-radius: var(--badge-radius);
-	content: ""; position: absolute;
-	color: var(--badge-accent);
-	width: 14px; height: 18px;
-	bottom: -3px; left: -0px;
-	z-index: 1;
-}
-
-.avatar-2MSPKk:hover::after {
-	width: 40px; height: 40px;
-}
-
-/* Server Management - Members Tab */
-.avatar-rUnPfv::after {
-	pointer-events: none; transition: all 0.1s ease-in-out;
-	background: var(--user-badge) center/cover no-repeat;
-	border-radius: var(--badge-radius);
-	content: ""; position: absolute;
-	color: var(--badge-accent);
-	bottom: -10px; left: -10px;
-	width: 24px; height: 24px;
-	z-index: 1;
-}
-
-.avatar-rUnPfv:hover::after {
-	width: 40px; height: 40px;
-}
-
-/* Server Management - Invite Tab */
-.avatar-29vZjw {
-	margin-right: 20px;
-}
-
-.avatar-29vZjw::after {
-	background: var(--user-badge) center/cover no-repeat;
-	border-radius: var(--badge-radius);
-	pointer-events: none; z-index: 1;
-	content: ""; position: absolute;
-	color: var(--badge-accent);
-	bottom: -0px; right: -24px;
-	width: 20px; height: 20px;
-}
-
-/* Panel */
-.avatar-1EWyVD.wrapper-1VLyxH::after {
-	background: var(--user-badge) center/cover no-repeat;
-	border-radius: var(--badge-radius);
-	pointer-events: none; z-index: 1;
-	content: ""; position: absolute;
-	color: var(--badge-accent);
-	width: 18px; height: 18px;
-	bottom: -8px; left: -3px;
-}
-
-/* Members List */
-.member-2gU6Ar .wrapper-1VLyxH::after {
-	background: var(--user-badge) center/cover no-repeat;
-	border-radius: var(--badge-radius);
-	pointer-events: none; z-index: 1;
-	content: ""; position: absolute;
-	color: var(--badge-accent);
-	width: 18px; height: 14px;
-	bottom: -3px; left: -5px;
-}
-
-/* DMS List */
-.avatar-1HDIsL .wrapper-1VLyxH::after {
-	background: var(--user-badge) center/cover no-repeat;
-	border-radius: var(--badge-radius);
-	pointer-events: none; z-index: 1;
-	content: ""; position: absolute;
-	color: var(--badge-accent);
-	width: 18px; height: 14px;
-	bottom: -3px; left: -5px;
 }
