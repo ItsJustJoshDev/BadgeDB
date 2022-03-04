@@ -1,6 +1,6 @@
 # Info and General Use
 
-| Variables | Info |
+| Variables | Info | Values |
 | ------------- |:-------------:| -----:|
 | --user-badge | The Users Main Badge | url("") |
 | --user-badge-secondary | Extra Badge For The User Popout | url("") |
