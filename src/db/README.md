@@ -10,7 +10,8 @@
 | --badge-border | Gives The Main Badge a Border  |
 | --badge-accent | Badge Color For SVGs |
 | --badge-background | Gives The Main Badge a Background Color |
-| --Testing | Testing |
-| --Testing | Testing |
-| --Testing | Testing |
-| --Testing | Testing |
+| --badge-radius | Radius Of The Badge |
+| --tooltip-background | Background Of The Custom Tooltip |
+| --tooltip-color | Text Color Of The Custom Tooltip |
+| --tooltip | Tooltip Text |
+| --user-accent | Accent Color For Users *Used In my Databases*  |
