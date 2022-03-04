@@ -2,7 +2,7 @@
 *[aria-label^="ItsJustJoshDev"],
 *[src*='938557606820204625'] {
 
-	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png"); /* Supports SVGs */
+	--user-badge: url("https://github.com/ItsJustJoshDev/ItsJustJoshDev.github.io/blob/main/src/assets/favcon/crown.png?raw=true"); /* Supports SVGs */
 	--badge-border: none; /* 3px solid var(--background-floating) */
 	--badge-accent: none; /* Badge Color For SVGs */
 	--badge-background: none; /* var(--background-floating) */
@@ -21,7 +21,7 @@
 *[aria-label^="Joshua Malava"],
 *[src*='750781478991954031'] {
 
-	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png"); /* Supports SVGs */
+	--user-badge: url("https://github.com/ItsJustJoshDev/ItsJustJoshDev.github.io/blob/main/src/assets/badges/709808106070081567.png?raw=true"); /* Supports SVGs */
 	--badge-border: none; /* 3px solid var(--background-floating) */
 	--badge-accent: none; /* Badge Color For SVGs */
 	--badge-background: none; /* var(--background-floating) */
