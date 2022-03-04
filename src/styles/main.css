@@ -165,3 +165,20 @@
 	width: 18px; height: 14px;
 	bottom: -3px; left: -5px;
 }
+
+/* Warning When Swaping To Compact Mode */
+.preview-QJ3OG3 .compact-2Nkcau:first-child::before {
+	content: "BadgeDB Will Not Work In Chat When Compact Mode Is On, Please Use Cozy Mode.";
+	padding: 5px;
+	border-radius: var(--radius-secondary, 4px);
+	background: #b93232;
+	position: absolute;
+	font-size: 10px !important;
+	font-weight: 600;
+	font-family: var(--font-primary);
+	height: auto;
+	width: auto;
+	color: #fff;
+	top: -10px; left: 10px;
+	z-index: 2 !important;
+}
