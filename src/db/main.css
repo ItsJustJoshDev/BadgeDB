@@ -2,11 +2,17 @@
 *[aria-label^="ItsJustJoshDev"],
 *[src*='938557606820204625'] {
 
-	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png"); /* Supports SVGs */
-	--badge-border: none; /* 3px solid var(--background-floating) */
-	--badge-accent: none; /* Badge Color For SVGs */
-	--badge-background: none; /* var(--background-floating) */
+	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
+	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
+	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png");
+	--badge-border: none;
+	--badge-accent: none;
+	--badge-background: none;
 	--badge-radius: 6px;
+
+	/* usrpopout stuff */
+	--margin-extra: 1.5px 6px 0 0;
+	--size-extra: 20px;
 
 	--tooltip-background: var(--user-accent);
 	--tooltip-color: var(--header-primary);
@@ -21,11 +27,17 @@
 *[aria-label^="Joshua Malava"],
 *[src*='750781478991954031'] {
 
-	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png"); /* Supports SVGs */
-	--badge-border: none; /* 3px solid var(--background-floating) */
-	--badge-accent: none; /* Badge Color For SVGs */
-	--badge-background: none; /* var(--background-floating) */
+	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
+	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
+	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png");
+	--badge-border: none;
+	--badge-accent: none;
+	--badge-background: none;
 	--badge-radius: 6px;
+
+	/* usrpopout stuff */
+	--margin-extra: 1.5px 6px 0 0;
+	--size-extra: 20px;
 
 	--tooltip-background: var(--user-accent);
 	--tooltip-color: var(--header-primary);
@@ -40,17 +52,17 @@
 *[aria-label^="Wme"],
 *[src*='865632950443835392'] {
 
-	--user-badge: url("https://discord.com/assets/b4389a07796a128a9e86e28e7f6df386.svg"); /* Supports SVGs */
-	--badge-border: none; /* 3px solid var(--background-floating) */
-	--badge-accent: none; /* Badge Color For SVGs */
-	--badge-background: none; /* var(--background-floating) */
+	--user-badge: url("https://discord.com/assets/b4389a07796a128a9e86e28e7f6df386.svg");
+	--badge-background: none;
+	--badge-border: none;
+	--badge-accent: none;
 	--badge-radius: 0px;
 
 	--tooltip-background: var(--user-accent);
 	--tooltip-color: var(--header-primary);
 	--tooltip-radius: 6px;
-    --tooltip: "Extreme Gay";
+   	--tooltip: "Extreme Gay";
 
-    --user-accent: rgb(163,47,194);
+    	--user-accent: rgb(163,47,194);
 
 }
