@@ -3,9 +3,9 @@
 *[src*='938557606820204625'] {
 
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png"); /* Supports SVGs */
-	--badge-border: 3px solid var(--background-floating);
+	--badge-border: none; /* 3px solid var(--background-floating) */
 	--badge-accent: none; /* Badge Color For SVGs */
-	--badge-background: var(--background-floating);
+	--badge-background: none; /* var(--background-floating) */
 	--badge-radius: 6px;
 
 	--tooltip-background: var(--user-accent);
@@ -17,14 +17,14 @@
 
 }
 
-#app-mount .avatar-2e8lTP[src*=''] + h2::after,
+#app-mount .avatar-2e8lTP[src*='750781478991954031'] + h2::after,
 *[aria-label^="Joshua Malava"],
-*[src*=''] {
+*[src*='750781478991954031'] {
 
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png"); /* Supports SVGs */
-	--badge-border: 3px solid var(--background-floating);
+	--badge-border: none; /* 3px solid var(--background-floating) */
 	--badge-accent: none; /* Badge Color For SVGs */
-	--badge-background: var(--background-floating);
+	--badge-background: none; /* var(--background-floating) */
 	--badge-radius: 6px;
 
 	--tooltip-background: var(--user-accent);
@@ -32,6 +32,6 @@
 	--tooltip-radius: 6px;
 	--tooltip: "a Very Horny Person";
 
-	--user-accent: ;
+	--user-accent: rgb(199, 128, 187);
 
 }
