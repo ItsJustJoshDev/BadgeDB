@@ -1,44 +1,51 @@
-/* Tooltips */
-
 /* usrpopout */
 .avatar-2Vndt_.wrapper-1VLyxH::before {
-	display: none; animation: anim .5s forwards;
-	background: var(--tooltip-background);
+	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	content: var(--tooltip); color: var(--tooltip-color);
+	z-index: 2 !important; padding: 5px 10px;
+	background: var(--tooltip-background);
 	border-radius: var(--tooltip-radius);
-	font-size: 12px; position: absolute;
 	margin-top: 35px; margin-left: -5px;
-	opacity: 0; z-index: 2 !important;
-	padding: 5px 10px;
+	transition: all 0.1s ease-in-out;
+ 	animation: anim .5s forwards;
+	opacity: 0; display: none;
+
 }
 
 /* usrmodal */
 .avatar-3QF_VA.wrapper-1VLyxH::before {
-	display: none; animation: anim .5s forwards;
-	background: var(--tooltip-background);
+	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	content: var(--tooltip); color: var(--tooltip-color);
+	z-index: 2 !important; padding: 5px 10px;
+	background: var(--tooltip-background);
 	border-radius: var(--tooltip-radius);
-	font-size: 12px; position: absolute;
 	margin-top: 75px; margin-left: 5px;
-	opacity: 0; z-index: 2 !important;
-	padding: 5px 10px;
+	transition: all 0.1s ease-in-out;
+ 	animation: anim .5s forwards;
+	opacity: 0; display: none;
+
 }
 
 /* Settings */
 .avatar-3mTjvZ.wrapper-1VLyxH::before {
-	display: none; animation: anim .5s forwards;
-	background: var(--tooltip-background);
+	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	content: var(--tooltip); color: var(--tooltip-color);
+	z-index: 2 !important; padding: 5px 10px;
+	background: var(--tooltip-background);
 	border-radius: var(--tooltip-radius);
-	font-size: 12px; position: absolute;
 	margin-top: 35px; margin-left: -5px;
-	opacity: 0; z-index: 2 !important;
-	padding: 5px 10px;
+	transition: all 0.1s ease-in-out;
+ 	animation: anim .5s forwards;
+	opacity: 0; display: none;
 }
 
 /* Chat */
 #app-mount .avatar-2e8lTP:hover + h2::after {
-	border: none !important; font-size: 12px; position: absolute;
+	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	content: var(--tooltip); color: var(--tooltip-color);
 	width: auto !important; height: 20px !important;
 	z-index: 2 !important; padding: 5px 10px;
@@ -48,8 +55,6 @@
 	margin-left: -65px;
 	margin-top: -8px;
 }
-
-
 
 .avatar-3mTjvZ.wrapper-1VLyxH:hover::before,
 .avatar-3QF_VA.wrapper-1VLyxH:hover::before,
