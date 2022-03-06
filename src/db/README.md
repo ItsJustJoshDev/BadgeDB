@@ -1,5 +1,11 @@
 # Info and General Use
 
+| Labels | Info |
+| ------------- |:-------------:|
+| ``[class*="avatar-"][src*='750781478991954031'] + h2::after`` | Fix for The Chat Avatar |
+| ``[aria-label^="Joshua Malava"]`` | Targets With The Username |
+| ``[src*='750781478991954031']`` | Targets With The User ID |
+
 | Variables | Info | Values |
 | ------------- |:-------------:| -----:|
 | --user-badge | The Users Main Badge | url("") |
