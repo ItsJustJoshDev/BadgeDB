@@ -10,9 +10,11 @@
 	/* usrpopout stuff */
 	--size-extra: 20px;
 
-	--tooltip-background: var(--user-accent);
+	--tooltip-background: url("https://github.com/ItsJustJoshDev/Dotfiles/blob/main/assets/Wallpapers/lock.png?raw=true");
 	--tooltip-color: var(--header-primary);
 	--tooltip-radius: 6px;
+	--tooltip-shadow-color: var(--background-floating);
+	--tooltip-border: 3px solid var(--background-floating);
 	--tooltip: "Banned Again Lamo";
 
 	--user-accent: rgb(201, 174, 98);
@@ -31,9 +33,11 @@
 	/* usrpopout stuff */
 	--size-extra: 20px;
 
-	--tooltip-background: var(--user-accent);
+	--tooltip-background: url("https://github.com/ItsJustJoshDev/Dotfiles/blob/main/assets/Wallpapers/lock.png?raw=true");
 	--tooltip-color: var(--header-primary);
 	--tooltip-radius: 6px;
+	--tooltip-shadow-color: var(--background-floating);
+	--tooltip-border: 3px solid var(--background-floating);
 	--tooltip: "a Very Horny Person";
 
 	--user-accent: rgb(199, 128, 187);
