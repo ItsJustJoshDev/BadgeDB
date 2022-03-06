@@ -1,4 +1,4 @@
-*[class*="avatar-"] + * {
+[class*="avatar-"] + h2 {
 	overflow: visible !important;
 }
 
