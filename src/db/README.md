@@ -12,4 +12,6 @@
 | --tooltip-background | Background Of The Custom Tooltip | var(--background-floating) |
 | --tooltip-color | Text Color Of The Custom Tooltip | var(--header-primary) |
 | --tooltip | Tooltip Text | "Text" |
+| --tooltip-shadow-color | Text Shadow Color | var(--background-floating) |
+| --tooltip-border | Gives The Tooltip a Border | 3px solid var(--background-floating) |
 | --user-accent | Accent Color For Users *Used In my Databases*  | #000 or rgb() |
