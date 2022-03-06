@@ -1,17 +1,13 @@
-#app-mount .avatar-2e8lTP[src*='938557606820204625'] + h2::after,
+*[class*="avatar-"][src*='938557606820204625'] + h2::after,
 *[aria-label^="ItsJustJoshDev"],
 *[src*='938557606820204625'] {
 
 	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
 	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png");
-	--badge-border: none;
-	--badge-accent: none;
-	--badge-background: none;
 	--badge-radius: 6px;
 
 	/* usrpopout stuff */
-	--margin-extra: 1.5px 6px 0 0;
 	--size-extra: 20px;
 
 	--tooltip-background: var(--user-accent);
@@ -23,20 +19,16 @@
 
 }
 
-#app-mount .avatar-2e8lTP[src*='750781478991954031'] + h2::after,
+*[class*="avatar-"][src*='750781478991954031'] + h2::after,
 *[aria-label^="Joshua Malava"],
 *[src*='750781478991954031'] {
 
 	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
 	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png");
-	--badge-border: none;
-	--badge-accent: none;
-	--badge-background: none;
-	--badge-radius: 6px;
+	--badge-radius: 0px;
 
 	/* usrpopout stuff */
-	--margin-extra: 1.5px 6px 0 0;
 	--size-extra: 20px;
 
 	--tooltip-background: var(--user-accent);
@@ -48,14 +40,11 @@
 
 }
 
-#app-mount .avatar-2e8lTP[src*='865632950443835392'] + h2::after,
-*[aria-label^="Wme"],
-*[src*='865632950443835392'] {
+*[class*="avatar-"][src*='865632950443835392'] + h2::after,
+*[src*='865632950443835392'],
+*[aria-label^="Wme"] {
 
 	--user-badge: url("https://discord.com/assets/b4389a07796a128a9e86e28e7f6df386.svg");
-	--badge-background: none;
-	--badge-border: none;
-	--badge-accent: none;
 	--badge-radius: 0px;
 
 	--tooltip-background: var(--user-accent);
