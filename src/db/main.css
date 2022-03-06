@@ -59,3 +59,19 @@
     	--user-accent: rgb(163,47,194);
 
 }
+
+[class*="avatar-"][src*='497161437051879444'] + h2::after,
+[aria-label^="Kewl Sage of the Stone"],
+[src*='497161437051879444'] {
+
+	--user-badge: url("https://eldenring.wiki.fextralife.com/file/Elden-Ring/godricks-great-rune-key-elden-ring-wiki-guide-200.png");
+	--badge-radius: 0px;
+
+	--tooltip-background: var(--user-accent);
+	--tooltip-color: gold;
+	--tooltip-radius: 0px;
+	--tooltip: "L + Ratio + no maidens + you're Tarnished + touch Grace";
+
+	--user-accent: rgb(20, 0, 0);
+
+}
