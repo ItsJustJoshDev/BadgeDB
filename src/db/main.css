@@ -1,6 +1,5 @@
 [class*="avatar-"][src*='938557606820204625'] + h2::after,
-[aria-label^="ItsJustJoshDev"],
-[src*='938557606820204625'] {
+[class*="avatar-"][aria-label^="ItsJustJoshDev"] {
 
 	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
 	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
@@ -22,8 +21,7 @@
 }
 
 [class*="avatar-"][src*='750781478991954031'] + h2::after,
-[aria-label^="Joshua Malava"],
-[src*='750781478991954031'] {
+[class*="avatar-"][aria-label^="Joshua Malava"] {
 
 	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
 	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
@@ -44,8 +42,7 @@
 
 }
 [class*="avatar-"][src*='865632950443835392'] + h2::after,
-[src*='865632950443835392'],
-[aria-label^="Wme"] {
+[class*="avatar-"][aria-label^="Wme"] {
 
 	--user-badge: url("https://discord.com/assets/b4389a07796a128a9e86e28e7f6df386.svg");
 	--badge-radius: 0px;
@@ -61,8 +58,7 @@
 }
 
 [class*="avatar-"][src*='497161437051879444'] + h2::after,
-[aria-label^="Kewl Sage of the Stone"],
-[src*='497161437051879444'] {
+[class*="avatar-"][aria-label^="Kewl Sage of the Stone"] {
 
 	--user-badge: url("https://eldenring.wiki.fextralife.com/file/Elden-Ring/godricks-great-rune-key-elden-ring-wiki-guide-200.png");
 	--badge-radius: 0px;
