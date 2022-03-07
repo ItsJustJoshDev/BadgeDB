@@ -9,7 +9,7 @@
 	/* Gold Bug Hunter */
 	[src$="f599063762165e0d23e8b11b684765a8.svg"] {
 		object-position: -999999px -999999px;
-		background: var(--user-accent, var(--hunter-color)) url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/special/modified/gold-hunter.svg");
+		background: var(--user-accent, var(--hunter-color));
 		-webkit-mask: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/special/og/gold-hunter.svg") center/cover no-repeat;
 		--hunter-color: #ddbf45;
 	}
