@@ -1,0 +1,164 @@
+	/* Bug Hunter */
+	[src$="8353d89b529e13365c415aef08d1d1f4.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--hunter-color)) url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/special/modified/hunter.svg") center/cover no-repeat;
+		-webkit-mask: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/special/og/hunter.svg") center/cover no-repeat;
+		--hunter-color: #5fee5c;
+	}
+
+	/* Gold Bug Hunter */
+	[src$="f599063762165e0d23e8b11b684765a8.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--hunter-color)) url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/special/modified/gold-hunter.svg");
+		-webkit-mask: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/special/og/gold-hunter.svg") center/cover no-repeat;
+		--hunter-color: #ddbf45;
+	}
+
+	/* Balance */
+	[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--hype-color));
+		-webkit-mask: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/hype/balance.svg") center/cover no-repeat;
+		--hype-color: #45DDC0;
+	}
+
+	/* Brilliance */
+	[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--hype-color));
+		-webkit-mask: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/hype/brilliance.svg") center/cover no-repeat;
+		--hype-color: #F47B67;
+	}
+
+	/* Bravery */
+	[src$="efcc751513ec434ea4275ecda4f61136.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--hype-color));
+		-webkit-mask: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/hype/bravery.svg") center/cover no-repeat;
+		--hype-color: #9C84EF;
+	}
+
+	/* Hypesquad Events */
+	[src$="e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--hype-color));
+		-webkit-mask: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/hype/events.svg") center/cover no-repeat;
+		--hype-color: #e7ba43;
+	}
+
+	/* Staff */
+	[src$="48d5bdcffe9e7848067c2e187f1ef951.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--brand-experiment));
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/staff.svg) center/cover no-repeat;
+	}
+
+	/* Partnered */
+	[src$="34306011e46e87f8ef25f3415d3b99ca.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--brand-experiment));
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/partner.svg) center/cover no-repeat;
+	}
+
+	/* Bot Dev */
+	[src$="4441e07fe0f46b3cb41b79366236fca6.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--brand-experiment));
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/dev.svg) center/cover no-repeat;
+	}
+
+	/* Community Moderator */
+	[src$="c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--brand-experiment));
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/community-mod.svg) center/cover no-repeat;
+	}
+
+	/* Warning Icon */
+	[class*="warningCircleIcon-"] path {
+		fill: var(--user-accent, var(--brand-experiment)) !important;
+	}
+
+	/* Early Supporter */
+	[src$="b802e9af134ff492276d94220e36ec5c.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--nitro-color));
+		-webkit-mask: var(--mask) center/cover no-repeat;
+		-webkit-mask-size: 16px;
+		--nitro-color: #dd4545;
+		--mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkuNSAxMGMtMi40ODMgMC00LjUgMi4wMTUtNC41IDQuNXMyLjAxNyA0LjUgNC41IDQuNSA0LjUtMi4wMTUgNC41LTQuNS0yLjAxNy00LjUtNC41LTQuNXptMi41IDVoLTJ2MmgtMXYtMmgtMnYtMWgydi0yaDF2MmgydjF6bS02LjUyNyA0LjU5M2MtMS4xMDggMS4wODYtMi4yNzUgMi4yMTktMy40NzMgMy40MDctNi40My02LjM4MS0xMi0xMS4xNDctMTItMTUuODA4IDAtNi43NjkgOC44NTItOC4zNDYgMTItMi45NDQgMy4xMjUtNS4zNjIgMTItMy44NDggMTIgMi45NDQgMCAuNzQ2LS4xNTYgMS40OTYtLjQyMyAyLjI1My0xLjExNi0uOTAyLTIuNTM0LTEuNDQ1LTQuMDc3LTEuNDQ1LTMuNTg0IDAtNi41IDIuOTE2LTYuNSA2LjUgMCAyLjA2My45NyAzLjkwMSAyLjQ3MyA1LjA5M3oiLz48L3N2Zz4=");
+	}
+
+	/* Boosting & Nitro */
+	[src$="e04ce699dcd2fd50d352a384511687a9.svg"],
+	[src$="24d05f3b46a110e538674edbac0db4cd.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--brand-experiment)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/nitro.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/nitro.svg) center/cover no-repeat;
+	}
+
+	[src$="ca18353be0e57a2b3b3132fa1c08d6b4.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/1.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/1.svg) center/cover no-repeat;
+	}
+
+	[src$="22f99ed6e34eaca48950254c70f8fe8d.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/2.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/2.svg) center/cover no-repeat;
+	}
+
+	[src$="4a2618502278029ce88adeea179ed435.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/3.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/3.svg) center/cover no-repeat;
+	}
+
+	[src$="fbafa6adb7c49a6a2c3822521ff2af2f.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/4.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/4.svg) center/cover no-repeat;
+	}
+
+	[src$="0599f90e32c15b532647163edd72f70a.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/5.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/5.svg) center/cover no-repeat;
+	}
+
+	[src$="e07c08cdc72bcc78b69c76d2c7ceb344.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/6.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/6.svg) center/cover no-repeat;
+	}
+
+	[src$="c7f26927db5e7806790f4e968038630a.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/7.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/7.svg) center/cover no-repeat;
+	}
+
+	[src$="c6d88d1d12afe03bdc4ebb747f8d196b.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/8.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/8.svg) center/cover no-repeat;
+	}
+
+	[src$="d96ed283b74de75692487b7499fb8d09.svg"] {
+		object-position: -999999px -999999px;
+		background: var(--user-accent, var(--boost-color)) url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/modified/9.svg) center/cover no-repeat;
+		-webkit-mask: url(https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/boost/og/9.svg) center/cover no-repeat;
+	}
+
+	[src$="ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
+	[src$="22f99ed6e34eaca48950254c70f8fe8d.svg"],
+	[src$="4a2618502278029ce88adeea179ed435.svg"],
+	[src$="fbafa6adb7c49a6a2c3822521ff2af2f.svg"],
+	[src$="0599f90e32c15b532647163edd72f70a.svg"],
+	[src$="e07c08cdc72bcc78b69c76d2c7ceb344.svg"],
+	[src$="c7f26927db5e7806790f4e968038630a.svg"],
+	[src$="c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
+	[src$="d96ed283b74de75692487b7499fb8d09.svg"] {
+		--boost-color: hotpink;
+	}
