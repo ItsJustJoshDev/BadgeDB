@@ -3,7 +3,7 @@
 | Labels | Info |
 | ------------- |:-------------:|
 | ``[class*="avatar-"][src*='750781478991954031'] + h2::after`` | Chat Fix |
-| ``[class*="avatar-"][aria-label^="Joshua Malava"]`` | Targets With The Username |
+| ``[aria-label^="Joshua Malava"]`` | Targets With The Username |
 | ``[src*='750781478991954031']`` | Targets With The User ID |
 
 | Variables | Info | Values |
