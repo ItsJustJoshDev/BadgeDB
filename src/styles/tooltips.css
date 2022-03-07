@@ -5,6 +5,7 @@
 /* usrpopout */
 .avatar-2Vndt_.wrapper-1VLyxH:hover::after {
 	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	font-family: Whitney,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	width: var(--tooltip-width) !important; height: 12px !important;
 	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
@@ -23,6 +24,7 @@
 /* usrmodal */
 .avatar-3QF_VA.wrapper-1VLyxH:hover::after {
 	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	font-family: Whitney,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	width: var(--tooltip-width) !important; height: 12px !important;
 	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
@@ -39,6 +41,7 @@
 /* Settings */
 .avatar-3mTjvZ.wrapper-1VLyxH:hover::after {
 	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	font-family: Whitney,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	width: var(--tooltip-width) !important; height: 12px !important;
 	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
@@ -55,6 +58,7 @@
 /* Chat */
 #app-mount .avatar-2e8lTP:hover + h2::after {
 	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
+	font-family: Whitney,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	content: var(--tooltip); color: var(--tooltip-color);
 	background: var(--tooltip-background) center/cover;
