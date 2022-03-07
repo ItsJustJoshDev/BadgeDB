@@ -76,3 +76,22 @@
 	--user-accent: rgb(20, 0, 0);
 
 }
+
+[class*="avatar-"][src*='755436063828213821'] + h2::after,
+[aria-label^="Obscure."],
+[src*='755436063828213821'] {
+
+	--user-badge: url("https://womginx.wmeluna.repl.co/main/im_/https://media.discordapp.net/attachments/949870903347523644/950420788421472256/logo.png");
+	--badge-radius: 0px;
+
+	--tooltip-background: var(--user-accent);
+	--tooltip-color: var(--header-primary);
+	--tooltip-radius: 6px;
+	--tooltip-shadow-color: var(--background-floating);
+	--tooltip-border: 3px solid var(--background-floating);
+	--tooltip-width: 83px;
+	--tooltip: "Lavender Owner";
+
+	--user-accent: #6770B4;
+
+}
