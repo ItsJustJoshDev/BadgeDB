@@ -43,7 +43,6 @@
 	--user-accent: rgb(199, 128, 187);
 
 }
-
 [class*="avatar-"][src*='865632950443835392'] + h2::after,
 [src*='865632950443835392'],
 [aria-label^="Wme"] {
@@ -54,9 +53,10 @@
 	--tooltip-background: var(--user-accent);
 	--tooltip-color: var(--header-primary);
 	--tooltip-radius: 6px;
+	--tooltip-width: 65px;
    	--tooltip: "Extreme Gay";
 
-    	--user-accent: rgb(163,47,194);
+    --user-accent: rgb(163,47,194);
 
 }
 
@@ -70,6 +70,7 @@
 	--tooltip-background: var(--user-accent);
 	--tooltip-color: gold;
 	--tooltip-radius: 0px;
+	--tooltip-width: 358px;
 	--tooltip: "L + Ratio + Didn't Rest + No Maidens + You're Tarnished + Touch Grace";
 
 	--user-accent: rgb(20, 0, 0);
