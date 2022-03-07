@@ -2,14 +2,13 @@
 [aria-label^="ItsJustJoshDev"],
 [src*='938557606820204625'] {
 
-	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
-	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
+	--tooltip-background: url("https://media.discordapp.net/attachments/939263586528804915/950438898851532830/1.png");
+	--user-badge-alternate: url("https://itsjustjoshdev.github.io/BadgeDB/src/assets/discord/dev.svg");
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png");
 	--badge-radius: 6px;
 
 	--size-extra: 20px;
 
-	--tooltip-background: url("https://github.com/ItsJustJoshDev/Dotfiles/blob/main/assets/Wallpapers/lock.png?raw=true");
 	--tooltip-color: var(--header-primary);
 	--tooltip-radius: 6px;
 	--tooltip-shadow-color: var(--background-floating);
@@ -21,18 +20,35 @@
 
 }
 
+.theme-dark [class*="avatar-"][src*='938557606820204625'] + h2::after,
+.theme-dark [aria-label^="ItsJustJoshDev"],
+.theme-dark [src*='938557606820204625'] {
+
+	--user-badge-secondary: url("https://i.imgur.com/ZZheOni.png");
+
+
+}
+
+.theme-light [class*="avatar-"][src*='938557606820204625'] + h2::after,
+.theme-light [aria-label^="ItsJustJoshDev"],
+.theme-light [src*='938557606820204625'] {
+
+	--user-badge-secondary: url("https://i.imgur.com/Wmy2RRs.png");
+
+}
+
 [class*="avatar-"][src*='750781478991954031'] + h2::after,
 [aria-label^="Joshua Malava"],
 [src*='750781478991954031'] {
 
 	--user-badge-alternate: url("https://cdn.discordapp.com/emojis/884565650360651806.webp?size=44&quality=lossless");
 	--user-badge-secondary: url("https://cdn.discordapp.com/emojis/697190643700859053.webp?size=96&quality=lossless");
+	--tooltip-background: url("https://media.discordapp.net/attachments/939263586528804915/950442454396592138/2.png");
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png");
 	--badge-radius: 0px;
 
 	--size-extra: 20px;
 
-	--tooltip-background: url("https://github.com/ItsJustJoshDev/Dotfiles/blob/main/assets/Wallpapers/lock.png?raw=true");
 	--tooltip-color: var(--header-primary);
 	--tooltip-radius: 6px;
 	--tooltip-shadow-color: var(--background-floating);
@@ -43,6 +59,26 @@
 	--user-accent: rgb(199, 128, 187);
 
 }
+
+[class*="avatar-"][src*='687354166561341455'] + h2::after,
+[aria-label^="ItsYaGirlJessica"],
+[src*='687354166561341455'] {
+
+	--user-badge: url("https://itsjustjoshdev.github.io/Library/assets/icons/moon.svg");
+	--badge-radius: 0px;
+
+	--tooltip-background: url("https://i.imgur.com/nHmpvZH.gif");
+	--tooltip-color: var(--user-accent);
+	--tooltip-radius: 6px;
+	--tooltip-shadow-color: var(--background-floating);
+	--tooltip-border: 3px solid var(--user-accent);
+	--tooltip-width: 128px;
+	--tooltip: "Looking at The Moonlight";
+
+	--user-accent: #8cc7d8;
+
+}
+
 [class*="avatar-"][src*='865632950443835392'] + h2::after,
 [aria-label^="Wme"],
 [src*='865632950443835392'] {
@@ -56,7 +92,7 @@
 	--tooltip-width: 65px;
    	--tooltip: "Extreme Gay";
 
-    --user-accent: rgb(163,47,194);
+    	--user-accent: rgb(163,47,194);
 
 }
 
