@@ -18,13 +18,13 @@
 
 /* usrpopout extra */
 .userPopout-2j1gM4 .profileBadges-2pItdR::before {
-	content: ""; margin: auto; position: relative; pointer-events: none;
+	content: ""; margin: 1.5px 6px 0 0; position: relative; pointer-events: none;
 	background: var(--user-badge-alternate) center/100% no-repeat;
 	width: var(--size-extra); height: var(--size-extra);
 }
 
 .userPopout-2j1gM4 .profileBadges-2pItdR::after {
-	content: ""; margin: auto; position: relative; pointer-events: none;
+	content: ""; margin: 0 6px 0 1.5px; position: relative; pointer-events: none;
 	background: var(--user-badge-secondary) center/100% no-repeat;
 	width: var(--size-extra); height: var(--size-extra);
 }
