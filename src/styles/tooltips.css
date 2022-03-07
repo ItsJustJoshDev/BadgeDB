@@ -9,9 +9,9 @@
 	width: var(--tooltip-width) !important; height: 12px !important;
 	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
 	content: var(--tooltip); color: var(--tooltip-color);
+	background: var(--tooltip-background) center/cover;
 	box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
 	z-index: 2 !important; padding: 5px 10px;
-	background: var(--tooltip-background);
 	border-radius: var(--tooltip-radius);
 	margin-top: 35px; margin-left: -5px;
 	transition: all 0.1s ease-in-out;
@@ -27,9 +27,9 @@
 	width: var(--tooltip-width) !important; height: 12px !important;
 	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
 	content: var(--tooltip); color: var(--tooltip-color);
+	background: var(--tooltip-background) center/cover;
 	box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
 	z-index: 2 !important; padding: 5px 10px;
-	background: var(--tooltip-background);
 	border-radius: var(--tooltip-radius);
 	margin-top: 75px; margin-left: 5px;
 	transition: all 0.1s ease-in-out;
@@ -43,9 +43,9 @@
 	width: var(--tooltip-width) !important; height: 12px !important;
 	-webkit-box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
 	content: var(--tooltip); color: var(--tooltip-color);
+	background: var(--tooltip-background) center/cover;
 	box-shadow: 5px 5px 8px 1px rgba(0, 0, 0, 0.15);
 	z-index: 2 !important; padding: 5px 10px;
-	background: var(--tooltip-background);
 	border-radius: var(--tooltip-radius);
 	margin-top: 35px; margin-left: -5px;
 	transition: all 0.1s ease-in-out;
@@ -57,9 +57,9 @@
 	text-shadow: -1px 0 var(--tooltip-shadow-color), 0 1px var(--tooltip-shadow-color), 1px 0 var(--tooltip-shadow-color), 0 -1px var(--tooltip-shadow-color);
 	border: var(--tooltip-border) !important; font-size: 12px; position: absolute;
 	content: var(--tooltip); color: var(--tooltip-color);
+	background: var(--tooltip-background) center/cover;
 	width: unset !important; height: 20px !important;
 	z-index: 2 !important; padding: 5px 10px;
-	background: var(--tooltip-background);
 	border-radius: var(--tooltip-radius);
  	animation: anim .5s forwards;
 	margin-left: -65px;
