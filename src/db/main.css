@@ -7,7 +7,6 @@
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/favcon/crown.png");
 	--badge-radius: 6px;
 
-	/* usrpopout stuff */
 	--size-extra: 20px;
 
 	--tooltip-background: url("https://github.com/ItsJustJoshDev/Dotfiles/blob/main/assets/Wallpapers/lock.png?raw=true");
@@ -15,6 +14,7 @@
 	--tooltip-radius: 6px;
 	--tooltip-shadow-color: var(--background-floating);
 	--tooltip-border: 3px solid var(--background-floating);
+	--tooltip-width: 100px;
 	--tooltip: "Banned Again Lamo";
 
 	--user-accent: rgb(201, 174, 98);
@@ -30,7 +30,6 @@
 	--user-badge: url("https://itsjustjoshdev.github.io/src/assets/badges/709808106070081567.png");
 	--badge-radius: 0px;
 
-	/* usrpopout stuff */
 	--size-extra: 20px;
 
 	--tooltip-background: url("https://github.com/ItsJustJoshDev/Dotfiles/blob/main/assets/Wallpapers/lock.png?raw=true");
@@ -38,6 +37,7 @@
 	--tooltip-radius: 6px;
 	--tooltip-shadow-color: var(--background-floating);
 	--tooltip-border: 3px solid var(--background-floating);
+	--tooltip-width: 105px;
 	--tooltip: "a Very Horny Person";
 
 	--user-accent: rgb(199, 128, 187);
