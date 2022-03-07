@@ -2,9 +2,8 @@
 
 | Labels | Info |
 | ------------- |:-------------:|
-| ``[class*="avatar-"][src*='750781478991954031'] + h2::after`` | Fix for The Chat Avatar |
-| ``[aria-label^="Joshua Malava"]`` | Targets With The Username |
-| ``[src*='750781478991954031']`` | Targets With The User ID |
+| ``[class*="avatar-"][src*='750781478991954031'] + h2::after`` | Targets With The User ID |
+| ``[class*="avatar-"][aria-label^="Joshua Malava"]`` | Targets With The Username |
 
 | Variables | Info | Values |
 | ------------- |:-------------:| -----:|
@@ -20,4 +19,5 @@
 | --tooltip | Tooltip Text | "Text" |
 | --tooltip-shadow-color | Text Shadow Color | var(--background-floating) |
 | --tooltip-border | Gives The Tooltip a Border | 3px solid var(--background-floating) |
+| --tooltip-width | Sets The Tooltip Width | unset |
 | --user-accent | Accent Color For Users *Used In my Databases*  | #000 or rgb() |
